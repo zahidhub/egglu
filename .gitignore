@@ -1,0 +1,16 @@
+.DS_Store
+# Ignore VSCode folder
+.vscode/
+
+# Ignore MacOS specific files
+*.dSYM/
+
+# Ignore all executables (binaries)
+*.out
+*.exe
+*.bin
+
+# You can also ignore all files that are typically generated from compiling
+# For example, ignoring object files
+*.o
+*.obj
