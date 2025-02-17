@@ -4,7 +4,7 @@ function Header(){
     return(
         <header className = 'headerBackground headerSize'>
             <div>
-                <img src='' alt='egglu logo' className='headerLogo' />
+                <img src='src/assets/eggluLogo.png' alt='egglu logo' className='headerLogo' />
             </div>
         </header>
     );
