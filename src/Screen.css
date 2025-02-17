@@ -1,0 +1,9 @@
+.screenSize {
+    background: #ffffff;
+    width: 100vw;  /* Full screen width */
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: flex-start;
+}
