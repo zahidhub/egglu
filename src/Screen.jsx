@@ -1,10 +1,12 @@
 import Header from "./Header";
+import Body from "./Body";
 import "./Screen.css";
 
 function Screen(){
     return (
         <div className="screenSize">
             <Header/>
+            <Body/>
         </div>
     );
 }
