@@ -1,0 +1,9 @@
+.notiLayout{
+    width: 300px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.notiBackground{
+    background: #FFC20E;
+}
