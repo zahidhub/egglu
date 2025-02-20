@@ -1,0 +1,18 @@
+.footerLayout{
+    display: inline-flex;
+    height: 40px;
+    padding: 14px 112px 14px 113px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.footerTypography{
+    color: #FFF;
+    text-align: center;
+    font-family: "Pixelify Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80%; /* 12px */
+}
