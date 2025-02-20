@@ -1,6 +1,6 @@
 import "./Body.css";
 import Card from "./Card";
-import BottomBar from "./BottomBar";
+
 
 function Body(){
     return(
@@ -11,9 +11,6 @@ function Body(){
             <Card icon={'src/assets/softBoiled.png'} text="soft boiled" />
             <Card icon={'src/assets/hardBoiled.png'} text="hard boiled" />
             <Card icon={'src/assets/pritu.png'} text="pritus word" />
-            </div>
-            <div>
-                <BottomBar/>
             </div>
         </div>
     );

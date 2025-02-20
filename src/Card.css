@@ -5,7 +5,8 @@
 }
 
 .cardLayout {
-    width: 250px; 
+    width: 80%;
+    max-width: 250px; 
     height: 105px;
     display: flex;
     flex-shrink: 0;

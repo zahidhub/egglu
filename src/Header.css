@@ -5,7 +5,7 @@
     align-items: center;  /* Align items to the top */
     justify-content: center;  /* Center horizontally */
     position: relative;
-    
+    width: 100%;
 }
 
 .headerSize{

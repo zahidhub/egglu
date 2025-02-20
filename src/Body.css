@@ -18,19 +18,13 @@
     align-items: center;
     gap: 25px;
     width: 100%;
-    flex-grow: 1;   
+    flex-grow: 1;
+    overflow: hidden;   
 }
-
-@media (min-width: 768px) {
-    .bodyLayout {
-        gap: 30px; 
-    }
-}
-
 
 @media (min-width: 1200px) {
     .bodyLayout {
-        gap: 35px; 
+        gap: 30px; 
     }
 }
 
@@ -45,7 +39,7 @@
 color: #000;
 text-align: center;
 font-family: "Pixelify Sans";
-font-size: 25px;
+font-size: 30px;
 font-style: normal;
 font-weight: 500;
 line-height: 80%; /* 24px */
