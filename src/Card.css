@@ -4,10 +4,13 @@
     box-shadow: 0px 4px 12px 0px rgba(255, 194, 14, 0.75);
 }
 
-.cardLayout{
-    display: inline-flex;
-    padding-right: 15px;
+.cardLayout {
+    width: 240px; 
+    height: 105px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 
 .typography{
@@ -16,6 +19,7 @@
     font-family: "Pixelify Sans";
     font-size: 32px;
     font-style: normal;
+    text-transform: uppercase;
     font-weight: 500;
     line-height: 80%; /* 25.6px */
 }
@@ -23,5 +27,4 @@
 .icon{
     width: 130px;
     height: 130px;
-    aspect-ratio: 1/1;
 }

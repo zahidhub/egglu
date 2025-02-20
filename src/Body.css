@@ -1,6 +1,11 @@
 .bodyLayout{
     width: 375px;
-    height: 732px; /* Full screen height */
+    height: 732px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
 }
 
 .background{
