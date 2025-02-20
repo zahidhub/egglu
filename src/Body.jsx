@@ -3,11 +3,14 @@ import Card from "./Card";
 
 function Body(){
     return(
-        <div className='bodyLayout background'>
+        <div className='bodyContainer bodyBackground'>
+           
+            <div className="bodyLayout">
             <Card icon={'src/assets/runnyYolk.png'} text="runny yolk" />
             <Card icon={'src/assets/softBoiled.png'} text="soft boiled" />
             <Card icon={'src/assets/hardBoiled.png'} text="hard boiled" />
             <Card icon={'src/assets/pritu.png'} text="pritus word" />
+            </div>
         </div>
     );
 }
