@@ -1,0 +1,11 @@
+.cardBackground{
+    border-radius: 15px;
+    background: #FFC20E;
+    box-shadow: 0px 4px 12px 0px rgba(255, 194, 14, 0.75);
+}
+
+.cardLayout{
+    display: inline-flex;
+    padding-right: 15px;
+    align-items: center;
+}
