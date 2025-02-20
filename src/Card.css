@@ -9,3 +9,19 @@
     padding-right: 15px;
     align-items: center;
 }
+
+.typography{
+    color: #000;
+    text-align: center;
+    font-family: "Pixelify Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80%; /* 25.6px */
+}
+
+.icon{
+    width: 130px;
+    height: 130px;
+    aspect-ratio: 1/1;
+}
