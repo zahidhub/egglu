@@ -1,18 +1,32 @@
-.cardBackground{
-    border-radius: 15px;
-    background: #FFC20E;
-    box-shadow: 0px 4px 12px 0px rgba(255, 194, 14, 0.75);
-}
-
 .cardLayout {
     width: 80%;
-    max-width: 250px; 
+    max-width: 250px;
     height: 105px;
     display: flex;
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    background-image: url("src/assets/button.png"); /* Use the PNG image as background */
+    background-size: contain; /* Ensures the image is contained within the button */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    border-radius: 10px; /* Add rounding for button if necessary */
+    outline: none; /* Remove focus outline */
 }
+
+.cardLayout:active {
+    transform: scale(0.95); /* Click effect - scale down slightly */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Click effect shadow */
+}
+
+.cardLayout:focus {
+    outline: none; /* Remove the default outline */
+}
+
 
 .typography{
     color: #000;
@@ -23,11 +37,15 @@
     text-transform: uppercase;
     font-weight: 500;
     line-height: 80%; /* 25.6px */
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .icon{
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     flex-shrink: 0;
     aspect-ratio: 1/1;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
