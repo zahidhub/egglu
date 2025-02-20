@@ -1,28 +1,51 @@
 .bodyContainer{
-    width: 400px;
-    height: 732px;
+    width: 100vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
+    
 }
 
 .bodyBackground{
-    background: #f9f5e9;
+    background: #ff7300;
 }
+
 
 .bodyLayout {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
     width: 100%;
+    flex-grow: 1;   
+}
+
+@media (min-width: 768px) {
+    .bodyLayout {
+        gap: 30px; 
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .bodyLayout {
+        gap: 35px; 
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .bodyLayout {
+        gap: 65px; 
+    }
 }
 
 .bodyTextTypography{
 color: #000;
 text-align: center;
 font-family: "Pixelify Sans";
-font-size: 30px;
+font-size: 25px;
 font-style: normal;
 font-weight: 500;
 line-height: 80%; /* 24px */

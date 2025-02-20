@@ -5,20 +5,19 @@
 }
 
 .cardLayout {
-    width: 240px; 
+    width: 250px; 
     height: 105px;
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     justify-content: center;
-    padding: 5px;
-    
 }
 
 .typography{
     color: #000;
     text-align: center;
     font-family: "Pixelify Sans";
-    font-size: 32px;
+    font-size: 30px;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 500;
@@ -26,6 +25,8 @@
 }
 
 .icon{
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
 }

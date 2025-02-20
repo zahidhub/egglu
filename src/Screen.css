@@ -1,10 +1,9 @@
 .screenSize {
     background: #ffffff;
-    width: 100vw;  /* Full screen width */
-    height: 100vh; /* Full screen height */
+    width: 100vw;  
+    height: 100vh; 
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column; 
     align-items: center;
     justify-content: flex-start;
-    
 }
