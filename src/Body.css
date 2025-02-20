@@ -1,60 +1,60 @@
-.bodyContainer{
+.bodyContainer{ /*styling for the body*/
     width: 100vw;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /*the content in the body will shift horizontaly*/
+    align-items: center; /*the components will be in the middle */
     
 }
 
 .bodyBackground{
-    background: url("src/assets/background.jpg");
+    background: url("src/assets/background.jpg"); /*custom background for body*/
 }
 
 
-.bodyLayout {
+.bodyLayout { /*holds styling for inside body where cards will be initiated*/
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*the content in the body will shift horizontaly*/
     align-items: center;
-    gap: 25px;
-    width: 100%;
+    gap: 25px; /*gap between each component*/
+    width: 100%; 
     flex-grow: 1;
-    overflow: hidden;   
+    overflow: hidden; /*any extra border will be hidden*/
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) { /*gap size shifting according to screen wodth*/
     .bodyLayout {
         gap: 70px; 
     }
 }
 
-@media (min-width: 430px) {
+@media (min-width: 430px) { /*gap size shifting according to screen wodth*/
     .bodyLayout {
         gap: 60px; 
     }
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) { /*gap size shifting according to screen wodth*/
     .bodyLayout {
         gap: 30px; 
     }
 }
 
 
-@media (min-width: 1600px) {
+@media (min-width: 1600px) { /*gap size shifting according to screen wodth*/
     .bodyLayout {
         gap: 65px; 
     }
 }
 
-.bodyTextTypography{
+.bodyTextTypography{ /*holds styling for the text*/
 color: #000;
 text-align: center;
-font-family: "Pixelify Sans";
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: "Pixelify Sans"; /*custom font*/
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*shawdow for the text*/
 font-size: 30px;
 font-style: normal;
-font-weight: 500;
-line-height: 80%; /* 24px */
+font-weight: 500; /*controls bold*/
+line-height: 80%; /*controls new line formating*/
 }
