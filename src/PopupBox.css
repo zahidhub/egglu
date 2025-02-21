@@ -13,7 +13,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: center;
-    gap: 23px;
 }
 
 .finishButton {
@@ -27,7 +26,7 @@
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .finishTypography {
