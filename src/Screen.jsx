@@ -3,13 +3,29 @@ import Header from "./Header"; // import header
 import Body from "./Body"; // import body
 import BottomBar from "./BottomBar"; // import the bottomBar
 import Notification from "./Notification"; // import notification
+import Countdown from "./Countdown"; //import countdown
 import "./Screen.css"; // import screen style sheet
 
 function Screen() { 
-    const [showNotification, setShowNotification] = useState(true); {/*the notification is show in the beginning and that updted in setShowNotification*/}
+    //the notification is show in the beginning and that updted in setShowNotification
+    const [showNotification, setShowNotification] = useState(true); 
+    // state to manage the countdown
+    const [showCountdown, setShowCountdown] = useState(false);
+    //state to store the duration of the countdown in minutes
+    const [coutDuration, setCoutDuration] = useState(0);
 
     const handleCloseNotification = () => {
         setShowNotification(false); // when user clicks X, this turns showNotification false
+    };
+
+    const handleCardClick = (duration) => {
+        setCoutDuration(duration); //set the timer duration
+        setShowCountdown(true); // show the countdown popup
+    };
+
+    const handleStopTimer = () =>{
+        setCoutDuration(0); // stop the timer
+        setShowCountdown(false); // close the popup
     };
 
     return (
@@ -28,6 +44,10 @@ function Screen() {
             </div>
 
             <BottomBar /> {/*bottombar component */}
+
+            {showCountdown && (
+                <Countdown duration={coutDuration} onStop={handleStopTimer}/>
+            )}
         </div>
     );
 }
