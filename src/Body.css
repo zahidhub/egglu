@@ -58,3 +58,8 @@ font-style: normal;
 font-weight: 500; /*controls bold*/
 line-height: 80%; /*controls new line formating*/
 }
+
+.blurred { /*holds blur style elements*/
+    filter: blur(5px); /*apply blur effect */
+    pointer-events: none; /*prevent interaction with the background */
+}
