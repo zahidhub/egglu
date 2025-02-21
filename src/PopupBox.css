@@ -1,0 +1,50 @@
+.PopupBoxLayout {
+    display: flex;
+    width: 240px;
+    height: 200px;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background: #FFC20E;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.30);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    gap: 23px;
+}
+
+.finishButton {
+    display: flex;
+    width: 170px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 3px solid #000;
+    background: #148600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.finishTypography{
+    color: #FFF;
+    text-align: center;
+    font-family: "Pixelify Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80%; /* 25.6px */
+}
+
+.PopupBoxTypography{
+    color: #4E4D4D;
+    text-align: center;
+    font-family: "Pixelify Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80%; /* 12.8px */
+}
