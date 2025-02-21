@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"; // import react hook
 import "./Countdown.css"; // import css file
 
 function Countdown({ duration, onStop }) {
-    const [timeLeft, setTimeLeft] = useState(duration); // track the remaining time in seconds
+    const [timeLeft, setTimeLeft] = useState(duration * 60); // track the remaining time in seconds
 
     // handle the countdown logic
     useEffect(() => {
