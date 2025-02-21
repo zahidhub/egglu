@@ -1,18 +1,32 @@
-.countdownBoxLayout{
+.countdownBoxLayout {
     display: flex;
     width: 240px;
     height: 200px;
-    padding: 15px 11px 23px 13px;
+    padding: 15px;
     flex-direction: column;
     align-items: center;
-    gap: 22px;
-    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFC20E;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.30);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    gap: 23px;
 }
 
-.stopButton{
+.stopButton {
+    display: flex;
     width: 170px;
     height: 40px;
     flex-shrink: 0;
+    border-radius: 5px;
+    border: 3px solid #000;
+    background: #F00;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 .stopTypography{

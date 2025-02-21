@@ -40,7 +40,7 @@ function Screen() {
 
             {/*the className, component depends on the showNotification, if true it will have an extra class blurred, else bodyContainer applied only */}
             <div className={`bodyContainer ${showNotification ? "blurred" : ""}`}> {/*bluring only the body*/}
-                <Body />
+                <Body onCardClick={handleCardClick} />
             </div>
 
             <BottomBar /> {/*bottombar component */}

@@ -2,7 +2,7 @@ import "./Body.css"; // importing css calss for body
 import Card from "./Card"; // import the Card class
 
 
-function Body(){ 
+function Body({onCardClick}){ 
     return(
         <div className='bodyContainer bodyBackground'> {/*initiating the css file for the body*/}
             <h4 className="bodyTextTypography">choose your egg type</h4> {/*text body for the header*/}
