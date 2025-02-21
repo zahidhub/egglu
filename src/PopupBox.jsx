@@ -1,8 +1,18 @@
-import "./PopupBox.css"
+import "./PopupBox.css";
 
-function PopupBox(){
-    return(<>
-    </>
+function PopupBox({ onFinish }) {
+    return (
+        <div className="PopupBoxLayout">
+            <div className="">
+                <p className="PopupBoxTypography">
+                Turn the stove off and take out the eggs. Put them in running water to help when peeling off.
+                <br/>Enjoy your EGGLU!
+                </p>
+            </div>
+            <button className="finishButton" onClick={onFinish}>
+                <div className="finishTypography">FINISH</div>
+            </button>
+        </div>
     );
 }
 
