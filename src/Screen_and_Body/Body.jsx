@@ -1,5 +1,5 @@
 import "./Body.css"; // importing css calss for body
-import Card from "./Card"; // import the Card class
+import Card from "../Card/Card"; // import the Card class
 
 
 function Body({onCardClick}){ 

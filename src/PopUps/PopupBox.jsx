@@ -10,7 +10,7 @@ function PopupBox({ onFinish }) {
                 </p>
             </div>
             <button className="finishButton" onClick={onFinish}>
-                <div className="finishTypography">FINISH</div>
+                <div className="finishTypography">FINISHED</div>
             </button>
         </div>
     );

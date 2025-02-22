@@ -1,9 +1,9 @@
 import { useState } from "react"; // import state from react
-import Header from "./Header"; // import header
+import Header from "../Header_and_Footer/Header"; // import header
 import Body from "./Body"; // import body
-import BottomBar from "./BottomBar"; // import the bottomBar
-import Notification from "./Notification"; // import notification
-import Countdown from "./Countdown"; //import countdown
+import BottomBar from "../Header_and_Footer/BottomBar"; // import the bottomBar
+import Notification from "../PopUps/Notification"; // import notification
+import Countdown from "../Timer/Countdown"; //import countdown
 import "./Screen.css"; // import screen style sheet
 
 function Screen() { 

@@ -1,4 +1,4 @@
-import Screen from "./Screen";
+import Screen from "../Screen_and_Body/Screen";
 
 function App(){
   return(

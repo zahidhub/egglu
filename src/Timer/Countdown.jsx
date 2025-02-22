@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"; // import react hook
 import "./Countdown.css"; // import css file
-import PopupBox from "./PopupBox";
+import PopupBox from "../PopUps/PopupBox";
 
 function Countdown({ duration, onStop}) {
     const [timeLeft, setTimeLeft] = useState(duration * 60); // track the remaining time in seconds
