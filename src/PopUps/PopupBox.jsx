@@ -1,6 +1,16 @@
 import "./PopupBox.css";
+import { useEffect } from "react";
 
 function PopupBox({ onFinish }) {
+
+    useEffect( () => { // play the audio when the popup is active
+        const finishAudio = new Audio("src/assets/kokok_alarm.mp3"); // sound track path
+        finishAudio.play(); // play the sound
+        return () => {
+            finishAudio.pause(); // pause the sound once the popup component is removed
+        };
+    });
+
     return (
         <div className="PopupBoxLayout">
             <div className="">
