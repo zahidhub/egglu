@@ -103,7 +103,8 @@ The app is built with React components and corresponding CSS files for styling. 
 
 ## Credits
 
-- **Created by**: Hasan Zahid  
+- **Created by**: Hasan Zahid
+- **Inspiration**: https://www.reddit.com/r/SideProject/s/9vlCWr7KoR
 
 ---
 
