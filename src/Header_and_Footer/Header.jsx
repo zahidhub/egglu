@@ -1,11 +1,13 @@
 import "./Header.css";
+import logo from "../assets/eggluLogo.png";
+
 
 function Header(){
     return(
         <header className = 'headerBackground headerSize'>
 
             <div>
-                <img src='src/assets/eggluLogo.png' alt='egglu logo' className='headerLogo' /> {/*holds the logo*/} 
+                <img src={logo} alt='egglu logo' className='headerLogo' /> {/*holds the logo*/} 
             </div>
 
         </header>

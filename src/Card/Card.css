@@ -10,7 +10,7 @@
     cursor: pointer;
     padding: 10px;
     transition: transform 0.1s ease, box-shadow 0.1s ease;
-    background-image: url("src/assets/button.png"); /* Use the PNG image as background */
+    background-image: url("@/assets/button.png"); /* Use the PNG image as background */
     background-size: contain; /* Ensures the image is contained within the button */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */

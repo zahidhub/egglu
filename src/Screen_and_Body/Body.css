@@ -8,7 +8,7 @@
 }
 
 .bodyBackground{
-    background: url("src/assets/background.jpg"); /*custom background for body*/
+    background: url("@/assets/background.jpg"); /*custom background for body*/
 }
 
 
