@@ -67,7 +67,7 @@ The app is built with React components and corresponding CSS files for styling. 
    ```bash
    npm run dev
    ```
-   Open `http://localhost:3000` in your browser to see Egglu in action!
+   Open `http://localhost:3000`(link might be different acording to your environment) in your browser to see Egglu in action!
 
 ---
 
