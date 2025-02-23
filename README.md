@@ -2,6 +2,7 @@
 
 <div align="center"> <img src="src/assets/eggluLogo.png" alt="Egglu Logo" width="200" /> </div>
 
+[**Live Demo**](https://zahidhub.github.io/egglu/) (BEST COMPATIBLE WITH **MOBILE**)<br/>
 **Egglu** is a fun and interactive React-based web application designed to help you boil the perfect egg. Whether you prefer a runny yolk, soft-boiled, hard-boiled, or a quirky custom recipe by "Pritu," Egglu has you covered with a timer, notifications, and step-by-step guidance in a playful, with pixelated UI.
 
 Built with React and styled with custom CSS, Egglu features a clean layout, interactive cards, a countdown timer, and popups with sound effects to make your egg-boiling experience both practical and enjoyable. Perfect for EGG ESPECIALIST and people like you who do not know how to boil an EGG!
