@@ -1,0 +1,94 @@
+.pritusRecipeOverlay { /*popup positioning in the screen*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pritusRecipeLayout { /*popup layout*/
+    width: 240px;
+    height: 200px;
+    border-radius: 15px;
+    background: #FFC20E;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.30);
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.CloseXiconLayout { /*closing icon*/
+    width: 30px;
+    height: 30px;
+    background: url("https://s3-alpha-sig.figma.com/img/b671/9f13/d3ffa5ff147dc8fb0fd0a43c251fc192?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jgywavxnnX~ZbkZP3beII8q~vdGTymf4MUzi5WYQ5CftLrnutXNXR5gjBTMiWA298s8v3Yz4z624d304ElGOltPgBn7g8-acca5so2~bHGbqgHsq1lKGjFDRL1vfTeaHMYHVFg3wllaAAIOIYL0kuAt8dztFB5CpRk~5LAsv2eGBuUFF3M6ft0Q9XARLKMLDaxguUEt9b~pvMgdrhT23hDcRPmmn51U6dO8kXe4NGncQjFLkfmzZlbGUgtt3C0Les3dHnzV2Ix~4EBYiviT1p6tJNBmumQUC9XQi-0~fEeBtWkcYzvV1uO-WYcqrilVngj~OnTozCqEsKNDDTFfdDA__") 
+    center/contain no-repeat;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+  
+}
+
+.headerLayout { /*header text*/
+    color: #000;
+    font-family: "Pixelify Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80%; /* 19.2px */
+    margin-bottom: 10px;
+}
+
+.firstParaLayout { /*positioning of 1st para*/
+    margin-bottom: 10px;
+}
+
+.firstParaTypography { /*style for font*/
+    color: #000;
+    font-family: "Pixelify Sans";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 80%; /* 12.8px */
+}
+
+.firstParaTypography strong { /* bold for "ingredients" */
+    font-weight: 700; 
+}
+
+.secondParaLayout { /*positioning of 2nd para*/
+    margin-bottom: 10px;
+}
+
+.secondParaTypography { /*2ndd para font*/
+    color: #000;
+    font-family: "Pixelify Sans";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 80%; /* 12.8px */
+}
+
+.secondParaTypography strong {  /*bold for "instruction" */
+    font-weight: 700;
+}
+
+.lastLineLayout { /*positioning of lastlien*/
+    margin-top: 10px;
+}
+
+.lastLineTypography { /*font for last line*/
+    color: #000;
+    font-family: "Pixelify Sans";
+    font-size: 14px;
+    font-style: normal;
+    line-height: 80%; /* 11.2px */
+}
+
+.lastLineTypography strong { /*bold for 'ANDA' */
+    font-weight: 700; 
+}
