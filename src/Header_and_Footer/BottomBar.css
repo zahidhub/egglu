@@ -1,4 +1,4 @@
-.footerLayout {
+.footerLayout { /*footer size*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,13 +8,13 @@
     height: 40px;
   }
 
-.footerTextAign{
+.footerTextAign{ /*footer text position*/
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
 
-.footerTypography{
+.footerTypography{ /*font for the footer text*/
     color: #FFF;
     text-align: center;
     font-family: "Pixelify Sans";
