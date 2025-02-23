@@ -53,7 +53,7 @@ The app is built with React components and corresponding CSS files for styling. 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/egglu.git
+   git clone https://github.com/zahidhub/egglu.git or git@github.com:zahidhub/egglu.git
    cd egglu
    ```
 
