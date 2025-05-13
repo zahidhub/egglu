@@ -23,14 +23,14 @@
 }
 
 .CloseXiconLayout { /*closing icon*/
-    width: 30px;
-    height: 30px;
-    background: url("https://s3-alpha-sig.figma.com/img/b671/9f13/d3ffa5ff147dc8fb0fd0a43c251fc192?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jgywavxnnX~ZbkZP3beII8q~vdGTymf4MUzi5WYQ5CftLrnutXNXR5gjBTMiWA298s8v3Yz4z624d304ElGOltPgBn7g8-acca5so2~bHGbqgHsq1lKGjFDRL1vfTeaHMYHVFg3wllaAAIOIYL0kuAt8dztFB5CpRk~5LAsv2eGBuUFF3M6ft0Q9XARLKMLDaxguUEt9b~pvMgdrhT23hDcRPmmn51U6dO8kXe4NGncQjFLkfmzZlbGUgtt3C0Les3dHnzV2Ix~4EBYiviT1p6tJNBmumQUC9XQi-0~fEeBtWkcYzvV1uO-WYcqrilVngj~OnTozCqEsKNDDTFfdDA__") 
+    width: 20px;
+    height: 20px;
+    background: url("src/assets/close.png") 
     center/contain no-repeat;
     cursor: pointer;
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 05px;
     border: none;
   
 }
