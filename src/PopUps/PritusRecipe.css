@@ -25,7 +25,7 @@
 .CloseXiconLayout { /*closing icon*/
     width: 20px;
     height: 20px;
-    background: url("src/assets/close.png") 
+    background: url("../assets/close.png") 
     center/contain no-repeat;
     cursor: pointer;
     position: absolute;

@@ -28,7 +28,7 @@
 .xIconLayout { /*the x icon in the notification box*/
     width: 20px;
     height: 20px;
-    background: url("src/assets/close.png") 
+    background: url("../assets/close.png") 
     center/contain no-repeat;
     cursor: pointer;
     margin-bottom: 70px;
